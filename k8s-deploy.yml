@@ -18,7 +18,7 @@ spec:
   spec:
    containers:
    - name: webappcontainer
-     image: arununik/test:latest
+     image: arununik/test:testing-v1
      ports:
      - containerPort: 9090
 ---
