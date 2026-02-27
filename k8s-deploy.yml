@@ -19,6 +19,7 @@ spec:
    containers:
    - name: webappcontainer
      image: arununik/test:latest
+     imagePullPolicy: Always
      ports:
      - containerPort: 9090
 ---
